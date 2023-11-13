@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    color: white;
+}
+
+p{
+    color: #7D7D7D;
+    padding: 20px 0;
+}
+
+.container{
+    width: 1400px;
+    margin: auto;
+    padding: 5%;
+}
+
+/* ==================Start Header=============== */
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+.first_child{
+    border-bottom: 2px solid #717CFF;
+} 
+
+.last_child{
+   border: 2px solid #717CFF;
+   border-radius: 5px;
+   padding: 5px 20px;
+}
+
+/* ==================Header End================ */
+
+/* ==================Start Hero================ */
+
+.hero{
+    width: 100%;
+    gap: 265px;
+    display: flex;
+    align-items: center;
+}
+
+h1 span{
+    color: #717CFF;
+}
+
+.hero_left button{
+    background-color: #717CFF;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 40px;
+    border: none;
+    display: flex;
+    gap: 40px;
+}
+
+button i{
+    color: #7D7D7D;
+    padding-left: 20px;
+}
+
+.hero_left .icons{
+    display: flex;
+    gap: 50px;
+    padding-top: 60px;
+}
+
+.hero_right{
+    height: 566px;
+    overflow: hidden;
+}
+
+/* ==================Hero End================== */
+
+/* ==================Start Main================ */
+
+main{
+    width: 100%;
+    padding: 10% 0;
+    background-color: #FAFAFA;
+}
+
+main h3{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #7D7D7D;
+}
+
+.main_child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* ==================Main End================== */
+
+/* ==================Start Section============= */
+
+section{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.section_child{
+    text-align: center;
+}
+
+.cards1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5% 0;
+}
+
+.card{
+    width: 350px;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 50px 1px rgb(221, 219, 219);
+}
+
+.card img{
+    width: 70px;
+    height: 70px;
+}
+
+.card button{
+    border: none;
+    color: #717CFF;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.cards2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 18%;
+    margin: auto;
+}
+
+/* ==================Section End=============== */
+
+/* ==================Start Nav================= */
+
+nav{
+    width: 100%;
+    padding: 5% 0;
+    background-color: #FAFAFA;
+}
+
+.nav_top{
+    text-align: center;
+}   
+
+.nav_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 1px 50px 1px rgb(221, 219, 219);
+}
+
+.cards p{
+    padding: 20px;
+}
+
+.cards h4{
+    padding: 20px;
+}
+
+.cards img{
+    width: 350px;
+    height: 220px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.nav_bottom2{
+    text-align: center;
+    padding-top: 5%;
+}
+
+nav button{
+    padding: 10px 30px;  
+    border-radius: 5px;
+    border: none;
+    background-color: #717CFF;
+}
+
+/* ==================Nav End=================== */
+
+/* ==================Start Aside=============== */
+
+aside{
+    width: 100%;
+    padding: 5%;
+}
+
+.aside_top{
+    text-align: center;
+}
+
+.aside_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.aside_bottom button{
+    padding: 10px 30px;  
+    border-radius: 5px;
+    border: none;
+    background-color: #717CFF;
+    display: block; 
+}
+
+.aside_card{
+    width: 500px;
+    padding: 20px;
+    box-shadow: 1px 1px 50px 1px rgb(221, 219, 219);
+    border-radius: 5px;
+}
+
+.aside_child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aside_child2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==================Aside End================= */
+
+/* ==================Start Article=============*/
+
+article{
+    width: 100%;
+    padding: 5% 0;
+    background-color: #FAFAFA;
+}
+
+.article_top{
+    text-align: center;
+}
+
+.article_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article_card{
+    width: 350px;
+}
+
+.article_card img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+/* ==================Article End=============== */
+
+/* ==================Start Content============= */
+
+.content{
+    width: 100%;
+    padding: 5% 0;
+}
+
+.content_top{
+    text-align: center;
+}
+
+.content_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+}
+
+.text_child{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ==================Content End=============== */
+
+/* ==================Start Box================= */
+.box_parents{
+    width: 100%;
+    padding: 5% 0;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box_right button{
+    background-color: #717CFF;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 40px;
+    border: none;
+    display: flex;
+    gap: 40px;
+}
+
+/* ==================Box End=================== */
+
+/* ==================Start Footer============== */
+
+footer{
+    width: 100%;
+    padding: 5%;
+    margin: auto;
+    background-color: #717CFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: white;
+}
+
+.footer_center{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.footer_icons{
+    display: flex;
+    gap: 50px;
+    padding-top: 120px;
+}
+/* ==================Footer End================ */
